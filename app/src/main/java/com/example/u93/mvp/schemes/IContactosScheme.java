@@ -8,7 +8,7 @@ public interface IContactosScheme {
     String COLUMN_TELEFONO = "telefono";
     String COLUMN_EMPRESA = "empresa";
 
-    String CONTACTOS_TABLE_CREATE = "CREATE TABLE IF NOT EXIST "
+    String CONTACTOS_TABLE_CREATE = "CREATE TABLE IF NOT EXISTS "
             + CONTACTOS_TABLE +" ( "
             + COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,  "
             + COLUMN_NOMBRE + " TEXT NOT NULL, "
