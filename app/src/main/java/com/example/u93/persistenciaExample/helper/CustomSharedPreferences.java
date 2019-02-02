@@ -1,9 +1,9 @@
-package com.example.u93.mvp.helper;
+package com.example.u93.persistenciaExample.helper;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.example.u93.mvp.models.User;
+import com.example.u93.persistenciaExample.models.User;
 import com.google.gson.Gson;
 
 public class CustomSharedPreferences {

@@ -1,13 +1,13 @@
-package com.example.u93.mvp.views.activities;
+package com.example.u93.persistenciaExample.views.activities;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.u93.mvp.R;
-import com.example.u93.mvp.presenters.MainPresenter;
-import com.example.u93.mvp.views.interfaces.IMainView;
+import com.example.u93.persistenciaExample.R;
+import com.example.u93.persistenciaExample.presenters.MainPresenter;
+import com.example.u93.persistenciaExample.views.interfaces.IMainView;
 
 public class MainActivity extends BaseActivity<MainPresenter> implements IMainView {
 

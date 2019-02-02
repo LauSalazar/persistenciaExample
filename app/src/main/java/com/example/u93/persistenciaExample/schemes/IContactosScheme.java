@@ -1,4 +1,4 @@
-package com.example.u93.mvp.schemes;
+package com.example.u93.persistenciaExample.schemes;
 
 public interface IContactosScheme {
 

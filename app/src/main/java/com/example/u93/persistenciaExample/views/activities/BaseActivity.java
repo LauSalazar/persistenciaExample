@@ -1,12 +1,12 @@
-package com.example.u93.mvp.views.activities;
+package com.example.u93.persistenciaExample.views.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Toast;
 
-import com.example.u93.mvp.helper.ValidateInternet;
-import com.example.u93.mvp.presenters.BasePresenter;
-import com.example.u93.mvp.views.interfaces.IBaseView;
+import com.example.u93.persistenciaExample.helper.ValidateInternet;
+import com.example.u93.persistenciaExample.presenters.BasePresenter;
+import com.example.u93.persistenciaExample.views.interfaces.IBaseView;
 
 public class BaseActivity<T extends BasePresenter> extends AppCompatActivity implements IBaseView {
     private T presenter;
@@ -33,5 +33,10 @@ public class BaseActivity<T extends BasePresenter> extends AppCompatActivity imp
     @Override
     public void showResultBase(int i) {
         Toast.makeText(this,"Resultado "+i, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void showToast(String s) {
+        Toast.makeText(this,s, Toast.LENGTH_SHORT).show();
     }
 }

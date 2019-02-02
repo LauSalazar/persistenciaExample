@@ -1,7 +1,7 @@
-package com.example.u93.mvp.presenters;
+package com.example.u93.persistenciaExample.presenters;
 
-import com.example.u93.mvp.helper.ValidateInternet;
-import com.example.u93.mvp.views.interfaces.IBaseView;
+import com.example.u93.persistenciaExample.helper.ValidateInternet;
+import com.example.u93.persistenciaExample.views.interfaces.IBaseView;
 
 public class BasePresenter<T extends IBaseView> {
 

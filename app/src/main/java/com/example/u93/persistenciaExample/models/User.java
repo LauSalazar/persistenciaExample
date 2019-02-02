@@ -1,4 +1,4 @@
-package com.example.u93.mvp.models;
+package com.example.u93.persistenciaExample.models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

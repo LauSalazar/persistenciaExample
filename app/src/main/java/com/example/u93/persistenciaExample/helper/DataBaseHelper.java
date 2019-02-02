@@ -1,10 +1,10 @@
-package com.example.u93.mvp.helper;
+package com.example.u93.persistenciaExample.helper;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.example.u93.mvp.schemes.IContactosScheme;
+import com.example.u93.persistenciaExample.schemes.IContactosScheme;
 
 public class DataBaseHelper extends SQLiteOpenHelper {
 

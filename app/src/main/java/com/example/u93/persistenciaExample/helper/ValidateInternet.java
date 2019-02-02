@@ -1,4 +1,4 @@
-package com.example.u93.mvp.helper;
+package com.example.u93.persistenciaExample.helper;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

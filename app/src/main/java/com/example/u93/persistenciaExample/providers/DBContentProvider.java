@@ -1,4 +1,4 @@
-package com.example.u93.mvp.providers;
+package com.example.u93.persistenciaExample.providers;
 
 import android.content.ContentValues;
 import android.database.Cursor;
@@ -10,6 +10,8 @@ public abstract class DBContentProvider {
     public DBContentProvider(SQLiteDatabase mDB){
         this.mDB = mDB;
     }
+
+    protected abstract <T> T cursorToEntity(Cursor cursor);
 
     public int delete(String tableName, String selection, String [] selectionArguments){
         return mDB.delete(tableName,selection,selectionArguments);
